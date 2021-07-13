@@ -1,0 +1,147 @@
+
+/*Genral Css */
+body{ 
+        background-color:#d9cac1;
+        
+       }
+a{
+    text-decoration: none;
+    color:#d55b6a;
+    font-weight: bold;
+    font-size:20px;
+}
+p{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    letter-spacing:1px; }
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+    font-size:30px;
+    color:#60445b;
+}
+
+a:hover{
+  color:burlywood;
+}
+span{
+    color:#fff;
+}
+
+
+/*header CSS*/
+.background{
+    background: url("img/pexels-photo-776653.jpeg");
+    background-position: cover;
+    position:relative;
+    background-repeat: no-repeat;
+    width:100%;
+    text-align: center;
+    height: 50vh;
+    width:100%;
+    background-attachment: fixed;
+   
+}
+.pd-y{
+    padding:0 0 100px 0;
+}
+
+.background:hover{
+    opacity: 0.8;
+}
+
+.background h1{
+    font-size:3.5rem;
+    text-transform: uppercase;
+    text-shadow: 10px 20px 30px #080808;
+}
+.summary p:nth-child(2){
+    font-weight: bold;
+}
+
+
+
+/*Main CSS*/
+
+.preamble{
+    text-align: center;
+    margin:auto;
+    border-bottom:dashed 5px #fff;
+    border-right: dashed 5px #fff;
+    padding: 10px;
+    
+}
+.main{
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+     
+}
+.requirements{
+    margin-left:auto;
+    margin-top:10%;
+    width:75%;
+    margin-bottom: 10%;
+}
+
+/*sidebar*/
+.sidebar{
+    float: right;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    background: url("img/pexels-photo-1257860.jpeg");
+    height: 60%;
+    width: 42%;
+    
+
+}
+.sidebar h3{
+    text-align:center;
+}
+
+li{
+    list-style-image:url("img/icon.png");
+}
+
+
+/*footer CSS*/
+footer{
+    text-align: center;
+    margin:auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    width:100%;
+    padding: 10%;
+   
+}
+footer a{
+    
+    color:#60445b;
+    text-shadow: 10px 20px 30px #080808;   
+}
+
+
+
+/*Media queries*/
+@media screen and(max-width:768px){
+    .intro{
+        width:80%;
+    }
+    .main{
+        float:none;
+        width: 80%;
+    }
+    .sidebar{float:none;
+        width:80%;
+        margin-right: auto;
+    }
+    .requirements{
+        width:80%;
+    }
+}
+
+
